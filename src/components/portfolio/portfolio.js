@@ -13,11 +13,11 @@ export default class Portfolio extends Component {
           <div className="twelve columns collapsed">
             <div id="portfolio-button-wrapper" className="bgrid-halves s-bgrid-halves cf">
               <div className="columns">
-                <a href="http://www.projects.williamscottporter.com" class="button">VIEW MY PORTFOLIO</a>
+                <a href="http://www.projects.williamscottporter.com" class="button" target="_blank">VIEW MY PORTFOLIO</a>
               </div>
 
               <div className="columns">
-                <a href="http://www.projects.williamscottporter.com" class="button">VIEW MY GITHUB</a>
+                <a href="https://github.com/WillPorter" class="button" target="_blank">VIEW MY GITHUB</a>
               </div>
             </div>
           </div>

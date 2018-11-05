@@ -44,7 +44,7 @@ export default class Resume extends Component {
                 <h3>O'brien et al Advertising</h3>
                 <p className="info">Web Developer <span>•</span> <em className="date">Nov 2017 - June 2018</em></p>
                 <p>
-                  A brief move across the country for family related issues brought me to the doorstep of Obrien et al Advertising.  Though the stay was breif, I learned a great deal from the interactive team.  Our primary focus was on building custom Wordpress sites based on our unique client approved mockups. I also learned the intricacies of robust email campaigns (Bronto and Mailchimp) via incoperating actionable analytics through such methods as A/B testing and user engagement.  Alas, the west coast was once again calling my name and I had to move on.
+                  A brief move across the country for family related issues brought me to the doorstep of Obrien et al Advertising.  Though the stay was brief, I learned a great deal from the interactive team.  Our primary focus was on building custom Wordpress sites based on our unique client approved mockups. I also learned the intricacies of robust email campaigns (Bronto and Mailchimp) via incoperating actionable analytics through such methods as A/B testing and user engagement.  Alas, the west coast was once again calling my name and I had to move on.
                 </p>
               </div>
             </div> {/* item end */}

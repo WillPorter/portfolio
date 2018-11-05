@@ -236,7 +236,9 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 
 $('.gradient-overlay').css({
-      background: "url('images/bg-will-tahoe.jpg') no-repeat center center fixed"});
+      "background": "url('images/bg-will-tahoe-2.jpg') no-repeat center center scroll", "background-size": "auto 100%"})
+
+      ;
 
   step += gradientSpeed;
   if ( step >= 1 )

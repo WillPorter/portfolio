@@ -25,7 +25,7 @@
 body { background: #0f0f0f; }
 
 body:after{
- content: url(/images/bg-will-tahoe.jpg);
+ content: url(/images/bg-will-tahoe-2.jpg);
  display:none;
 }
 
@@ -38,7 +38,6 @@ header {
    /* height: 800px; */
    min-height: 500px;
    width: 100%;
-   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -73,7 +72,7 @@ header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
-   width: 70%;
+   width: 40%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -130,17 +129,35 @@ header .gradient {
   margin: 0px;
 }
 
-header .gradient-overlay {
-  background: url("images/bg-will-tahoe.jpg") no-repeat center center fixed !important;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.gradient-overlay {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover!important;
+  -o-background-size: cover!important;
+  background-size: cover!important;
 }
 
 header::after {
-  content: url(/images/bg-will-tahoe.jpg);
+  content: url(/images/bg-will-tahoe-2.jpg);
 
+}
+
+.gradient-home {
+  position:absolute;
+  top:0;
+  min-height:200px;
+  background: -moz-linear-gradient(top, rgba(28,175,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(28,175,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(28,175,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  z-index: 1000;
+}
+
+#home {
+  position:relative;
+}
+
+span.header-readable {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding:5px;
 }
 
 /* primary navigation
