@@ -293,9 +293,6 @@ TxtRotate.prototype.tick = function() {
 
 
 
-  console.log(this.toRotate.length);
-  console.log(counter);
-
 
     if (counter < this.toRotate.length) {
 

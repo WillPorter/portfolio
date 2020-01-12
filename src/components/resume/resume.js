@@ -39,6 +39,15 @@ export default class Resume extends Component {
             <h1><span>Work</span></h1>
           </div>
           <div className="nine columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                <h3>Noble Studios</h3>
+                <p className="info">Web Developer <span>•</span> <em className="date">April 2019 - Present</em></p>
+                <p>
+                  Working along side a team of inspiring developers and talented creatives, Noble studios is proving to be a great place for both growth and progression.  Based in the emerging tech scene of Reno, Nevada, our team works with the most modern build tools and creates custom sites from the ground up.
+                </p>
+              </div>
+            </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
                 <h3>O'brien et al Advertising</h3>

@@ -317,10 +317,9 @@ TxtRotate.prototype.tick = function() {
       that.tick();
     }, delta);
 
-    console.log(counter)
     if (counter = 4) {
       bgClass = "gradient-overlay";
-      console.log(bgClass);
+
     }
   }
 };
